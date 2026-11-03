@@ -1,4 +1,5 @@
-# MT4608-Sampling-Theory-Group-Project
+# MT4608 Sampling Theory Group Project
+## Euan Allison, Atton Cheung, Sean Gallacher, Ben Porksen-manning, Sofia Soderberg
 
 Estimate of weekday (Mon-Fri, 10:00-16:00) crossings of Granny Clark's Wynd, St Andrews, from a simple random sample of 21 of 120 fifteen-minute intervals.
 
