@@ -16,7 +16,3 @@ source("R/analysis.R")
 rmarkdown::render("report.Rmd")        # requires rmarkdown and LaTeX
 ```
 or `Rscript R/analysis.R` to print the estimates. The bootstrap uses `set.seed(2026)`.
-
-## Notes
-- People = pedestrians + cyclists. Dogs were recorded in the pilot but excluded from main survey.
-- Pilot S^2 uses pedestrians only, summed to 15-minute blocks.
