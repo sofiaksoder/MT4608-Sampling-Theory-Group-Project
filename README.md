@@ -6,7 +6,7 @@ Estimate of weekday (Mon-Fri, 10:00-16:00) crossings of Granny Clark's Wynd, St 
 ## Structure
 - `data/main_survey.csv` - main survey counts (pedestrians, cyclists, cars) per sampled interval.
 - `data/pilot_survey.csv` - pilot counts in 5-minute bins (3 sessions).
-- `R/analysis.R` - loads data, computes the estimates, standard errors, t and bootstrap CIs.
+- `analysis_srs.R` - loads data, computes the estimates, standard errors, t and bootstrap CIs.
 - `report.Rmd` - the report; sources `R/analysis.R`.
 
 ## Reproduce
