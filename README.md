@@ -12,7 +12,6 @@ Estimate of weekday (Mon-Fri, 10:00-16:00) crossings of Granny Clark's Wynd, St 
 ## Reproduce
 From the project root:
 ```r
-source("R/analysis.R")
-rmarkdown::render("report.Rmd")        # requires rmarkdown and LaTeX
+source("R/analysis_srs.R")
 ```
-or `Rscript R/analysis.R` to print the estimates. The bootstrap uses `set.seed(2026)`.
+or `Rscript R/analysis_srs.R` to print the estimates. The bootstrap uses `set.seed(2026)`.
